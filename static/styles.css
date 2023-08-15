@@ -1,0 +1,241 @@
+ #home {
+    background-image: url('/static/bgg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  
+
+}
+.login:hover {
+    cursor: pointer;
+}
+.typewriter{
+    
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: transparent }
+  }
+
+
+.navbar-brand {
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-left: 1%;
+    color: black;
+    
+    
+}
+.navbar-collapse {
+    padding-left: 65%;
+
+}
+.red {
+    color: #733C3C;
+    
+}
+
+.nav-link {
+    color: #733C3C;
+    font-weight: 700;
+
+    
+    
+}
+ .home-title{
+    padding-left: 100px;
+    padding-top: 100px;
+    font-size: 5rem;
+    width: 950px;
+    color: white;
+}
+
+.btn-style {
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-size: 2rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    color: white;
+    border-radius: 0rem;
+    border-color: #733C3C;
+    border-width: 0.25rem;
+
+}
+.btn-style:hover {
+    border-color: #733C3C;
+    background-color: #733C3C;
+}
+.service-title{
+    text-align: center;
+    margin-left: 270px;
+    padding-top: 50px;
+    font-size: 5rem;
+    width: 950px;
+    color: black;
+}
+.service-content {
+    text-align: center;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 30px;
+    color: grey;
+    font-size: 1.3rem;
+}
+.row {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.service-card {
+    color: #2E3840;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+h3 {
+    text-align: center;
+    color: #2E3840;
+    
+}
+
+.card-body {
+    background-image: url('/static/bgg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.contact-img {
+    width: 280px;
+    height: 400px;
+    margin-left: 250px;
+    margin-bottom: 200px;
+}
+
+.about-border {
+    width: 280px;
+    height: 400px;
+    background-color: white;
+    border: 7px solid #733C3C;
+}
+.about {
+  padding-left: 200px;
+   
+}
+.about-img {
+    margin-top: -50px;
+    margin-left: 25px;
+    border: 7px solid white;
+}
+.nandini {
+    width: 280px;
+    height: 400px;
+
+}
+
+.about-content {
+    
+    color: grey;
+    font-size: 1.3rem;
+
+}
+.about-title {
+    text-align: left;
+    color: #2E3840;
+
+}
+.contact-title {
+   padding-bottom: 20px;
+    font-size: 5rem;
+    width: 950px;
+    color: black;
+
+}
+.btn-style-2 {
+    margin-top: 20px;
+   
+    font-size: 2rem;
+   
+    font-weight: bold;
+    color: black;
+    border-radius: 0rem;
+    border-color: #733C3C;
+    border-width: 0.25rem;
+
+}
+.btn-style-2:hover {
+    border-color: #733C3C;
+    background-color: #733C3C;
+}
+
+.contact-content {
+    position: relative;
+    bottom: 55px;
+}
+
+.follow-card {
+    color: grey;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+#follow {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.cta {
+    color: black;
+    text-decoration: none !important;
+}
+.cta:hover {
+    color: white;
+}
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+    
+
+
+
+    

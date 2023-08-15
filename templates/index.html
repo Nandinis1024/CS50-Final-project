@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+{% extends "layout.html" %}
+
+{% block title %}Home{% endblock %}
+    {% block content %}
+       
+        <section id="home">
+              <h1 class="home-title"><div class="typewriter">Hello, Welcome To </div><span class="red">Expense Tracker Web Application</span></h1>
+              <a href="/signup"><button type="button" class="btn btn-outline-danger btn-lg btn-style">SIGN UP</button></a>
+              
+        </section>
+        <section id="services"></section>
+        <h1 class="service-title">SERV<span class="red">I</span>CES</h1>
+        <p class="service-content">This expense manager app is a powerful tool to help you and your businesses stay on track while managing your expenses more efficiently. With this app, you can easily monitor your spending, create budgets, and gain insights into your financial habits.</p>
+        
+    
+        <div class="row">
+          <div class="col-lg-3 col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h3><i class="fa-solid fa-money-check-dollar"></i> EXPENSES</h3>
+                
+              </div>
+              <div class="card-body">
+               
+            <p class="service-card">Budgeting is more important than just paying bills and setting aside savings. It is about creating a long-term money plan</p>
+            
+            <div class="d-grid gap-2">
+            
+          </div>
+        
+              </div>
+        
+            </div>
+    
+          </div>
+        
+        <div class="col-lg-3 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-money-check-dollar"></i> INVESTMENTS</h3>
+              
+            </div>
+            <div class="card-body">
+             
+              <p class="service-card">Follow your investments and bring your portfolio into focus with support for stocks, bonds, FD's, mutual funds and much more.</p>
+              
+              <div class="d-grid gap-2">
+              
+            </div>
+      
+            </div>
+      
+          </div>
+      
+    
+        </div>
+        
+        <div class="col-lg-3 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-money-check-dollar"></i> FINANCIAL LIFE</h3>
+              
+            </div>
+            <div class="card-body">
+              
+              <p class="service-card">Get your complete financial picture at a glance. With iGrow application you can view all your epense activities.</p>
+              
+              <div class="d-grid gap-2">
+              
+            </div>
+      
+            </div>
+      
+          </div>
+    
+        </div>
+        <div class="col-lg-3 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-money-check-dollar"></i> E-BANKING</h3>
+              
+            </div>
+            <div class="card-body">
+              
+              <p class="service-card">iGrow application can automatically download transactions and send payments online from many financial institutions</p>
+              
+              <div class="d-grid gap-2">
+              
+            </div>
+      
+            </div>
+      
+          </div>
+    
+        </div>
+        
+      </div>
+    
+        <section id="contact">
+      <div class="row" style="padding-top: 150px;"> 
+        <div class=" about col-lg-6 col-md-12">
+          
+            <div class="about-border">
+              <div class="about-img">
+                <img class="nandini" src="/static/nandini.jpg" alt="">
+                <p style="font-weight: bold; text-align: right;">iGrow Ceo, Nandini</p>
+    
+              </div>
+           </div>
+          
+        </div> 
+    
+        <div class="contact-content col-lg-6 col-md-12" >
+          <h1 class="contact-title">About <span class="red">Us</span></h1>
+          <h3 class="about-title">Financial Solution</h3>
+          <hr>
+          <p class="about-content">iGrow financial solution  is one among Leading financial company from many years.MyBudget provides a many services  to the customer and industries. Financial solutions to meet your needs whatever your money goals,there is a MyBudget solution to help you reach them.u can Contact our service center for further information and also follow our social media for update on new services </p>
+          <button type="button" class="btn btn-outline-danger btn-lg btn-style-2"><a href="#follow" class="cta">FOLLOW US</a></button>
+        </div>
+      </div>     
+    
+        </section>
+    
+        <section id="follow">
+          <h1 class="service-title">CONTACT <span class="red">INFO</span></h1>
+          <div class="row">
+    
+            <div class="col-lg-4 col-md-12">
+              <div class="card">
+                <div class="car-body">
+                  <h3><i class="fa-solid fa-phone"></i>  Phone</h3>
+                  <hr>
+                  <p class="follow-card">+91 9599306226</p>
+                  <p class="follow-card">+91 8130072834</p>
+                  
+    
+                </div>
+              </div>
+    
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="card">
+                <div class="car-body">
+                  <h3><i class="fa-solid fa-envelope"></i>  Email</h3>
+                  <hr>
+                  <p class="follow-card">nandini.sunil1024@gmail.com</p>
+                  <p class="follow-card">info.gbl@gmail.com</p>
+                  
+                </div>
+              </div>
+    
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="card">
+                <div class="car-body">
+                  <h3><i class="fa-solid fa-address-book"></i>  Address</h3>
+                  <hr>
+                  <p class="follow-card">C-1105 kdp grand savanna, rajnagar extention, Ghaziabad 201017</p>
+                  
+                </div>
+              </div>
+    
+            </div>
+    
+          </div>
+    
+        </section>
+  
+        {% endblock %}

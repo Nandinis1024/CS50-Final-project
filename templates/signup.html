@@ -1,0 +1,103 @@
+{% extends "layout.html" %}
+{% block title %}signup{% endblock %}
+
+{% block content %}
+<section class="h-100 gradient-form" style="background-color: #eee;">
+
+    
+      
+        
+          <div class="row g-0"style="padding-top: 20px; padding-bottom: 10px;">
+            <div class="col-lg-6">
+              <div class="card-body p-md-5 mx-md-4">
+
+                <div class="text-center">
+                  <h4 class="mt-1 mb-5 pb-1">Welcome to iGrow</h4>
+                </div>
+
+                <form action="/signup" class="was-validated" method="post">
+                  <p>Let's create a new account</p>
+
+                  <div class="form-outline mb-4">
+                    <input type="text" id="form2Example11" class="form-control"
+                      placeholder="Username" name="username" required />
+                    <label class="form-label" for="form2Example11">Username</label>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <input type="password" id="form2Example22" class="form-control" placeholder="Password" name="password" required/>
+                    <label class="form-label" for="form2Example22">Password</label>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <input type="password" id="form2Example22" class="form-control" placeholder="Confirm Password" name="confirmation" required/>
+                    <label class="form-label" for="form2Example22">Confirm Password</label>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                  <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+                    <label class="form-check-label" for="myCheck""> I agree on <a href="http:/signup"  data-bs-toggle="modal" data-bs-target="#exampleModal">Terms and Conditions.</label></a>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Check this checkbox to continue.</div>
+                   
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Terms and Conditions</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            Welcome to iGrow! <br><br>
+
+
+
+The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: “Client”, “You” and “Your” refers to you, the person log on this website and compliant to the Company’s terms and conditions. “The Company”, “Ourselves”, “We”, “Our” and “Us”, refers to our Company. “Party”, “Parties”, or “Us”, refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  
+
+                  <div class="text-center pt-1 mb-5 pb-1">
+                    <button class="btn btn-primary btn-block fa-lg-2 mb-3" type="submit">Sign
+                      in</button>
+                    
+                  </div>
+
+                  <div class="d-flex align-items-center justify-content-center pb-4">
+                    <p class="mb-0 me-2">Already have an account?</p>
+                    <a href="/login"><button type="button" class="btn btn-primary">Log in</button></a>
+                  </div>
+
+                </form>
+                <!-- Button trigger modal -->
+
+                
+
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+              <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                <h4 class="mb-4">We are more than just a platform</h4>
+                <p class="large mb-0">"Take control of your finances with ease! Our expense tracker web application helps you effortlessly manage your expenses, so you can save more and stress less."</p>
+              </div>
+            </div>
+          </div>
+        
+      
+    
+  
+</section>
+
+{% endblock %}
